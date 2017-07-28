@@ -5,7 +5,7 @@ Email Validation as a HTTP Service with high-speed and concurrent checking !
 # Why is it fast ?
 
 - Based on [Fast Email Validator library](https://github.com/khanhicetea/fast-email-validator)
-- Run as HTTP server (based on ReactPHP)
+- Run as HTTP server (based on ReactPHP), built on-top [Flashy Framework](https://github.com/khanhicetea/flashy-framework)
 
 # Get Started
 
