@@ -5,5 +5,5 @@ WORKDIR /www
 ADD . /www
 RUN cp .env.example .env
 
-RUN /usr/local/bin/composer install
+RUN /usr/local/bin/composer install --prefer-dist
 CMD ["php", "/www/react", "server", "0.0.0.0:8000"]
